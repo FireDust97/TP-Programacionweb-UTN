@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: grey;
+    padding: 12px 0;
+    height: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.nav-bar h1{
+    font-size: 22px;
+}
+
+.menu-bar a{
+    padding-left: 10px;
+    color: black;
+}
+
+.social-bar a{
+    padding-left: 10px;
+    color: aquamarine;
+}
