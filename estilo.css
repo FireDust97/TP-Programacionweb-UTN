@@ -33,3 +33,45 @@ header{
     padding-left: 10px;
     color: aquamarine;
 }
+
+.hero-container {
+    height: 542px;
+    background-color: goldenrod;
+}
+
+.hero hr{
+    height: 15px;
+    width: 5px;
+}
+
+.dev-space{
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.hero img{
+    width: 27%;
+    border: 17px solid #FFFFFF;
+    border-radius: 100%;
+    margin-left: 160px;
+}
+
+.Dev-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-button{
+    display: flex;
+}
+
+.contact-button button{
+    width: 50%;
+}
