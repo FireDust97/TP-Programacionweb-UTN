@@ -94,7 +94,7 @@ header{
     width: 23%;
     border: 13px solid white;
     border-radius: 100%;
-    margin-left: 240px;
+    margin-left: 100px;
 }
 
 .Dev-presentation {
@@ -103,15 +103,63 @@ header{
     justify-content: center;
 }
 
+.Dev-presentation h1{
+    font-family: 'Exo 2';
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.Dev-presentation p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.Dev-presentation h2{
+    font-family: 'Exo 2';
+    font-weight: 800;
+    font-size: 70px;
+}
+
 .contact-button{
     display: flex;
+    align-items: center;
+    padding-top: 30px;
 }
 
-.contact-button button{
-    width: 50%;
+.contact-button input{
+    width: 160px;
+    padding: 12px 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
-.contact-button a{
+.specified-contact-bt{
     text-decoration: underline;
     color: black;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.contact-button i{
+    -webkit-text-stroke: 1px;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.Aboutme-section1{
+    background-color: white;
+    height: 502px;
+}
+
+.whatcanido-section2{
+    background-color: whitesmoke;
+    height: 500px;
 }
