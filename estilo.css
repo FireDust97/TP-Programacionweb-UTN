@@ -159,7 +159,143 @@ header{
     height: 502px;
 }
 
+.Aboutme-section1{
+    margin: 0 auto;
+}
+
+.about-title{
+    height: 130px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title span{
+    background-color: #6AD1FC;
+    padding: 4px 9px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    cursor: default;
+}
+
+.about-title h1{
+    font-family: 'Exo 2';
+    cursor: default;
+}
+
+.aboutme-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+    width: 1000px;
+    margin-left: 160px;
+    align-items: center;
+}
+
+.hi-im p{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 23px;
+    display: inline;
+}
+
+.hi-im span{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 23px;
+    border-bottom: 2px solid #6AD1FC;
+}
+
+.aboutme-presentation{
+    margin-top: 14px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    width: 590px;
+    line-height: 1.6;
+}
+
+.xp-years{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+}
+
+.xp-years-title h1{
+    font-family: 'Exo 2';
+    font-size: 90px;
+}
+
+.xp-years-title{
+    background-color: #6AD1FC;
+    width: 70px;
+    height: 70px;
+    padding-top: -3px;
+    display: flex;
+    align-items: center;
+    border-radius: 80%;
+    justify-content: center;
+}
+
+.xp-years-text{
+    padding-top: 22px;
+    font-size: 22px;
+}
+
+.xp-years-text p{
+    display: inline;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.xp-years-text span{
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.contact-data{
+    margin: 0 auto;
+    padding-right: 120px;
+    width: 1000px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-data span{
+    color: #6C757D;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.contact-data p{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.contact-data a{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+}
+
+.aboutme-2ndline{
+    margin-top: 5px;
+}
+
 .whatcanido-section2{
     background-color: whitesmoke;
+    height: 680px;
+}
+
+.whatcanido-section3{
+    background-color: white;
     height: 500px;
 }
