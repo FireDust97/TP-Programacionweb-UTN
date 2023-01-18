@@ -31,6 +31,10 @@ header{
     cursor: default;
 }
 
+.nav-bar h1::selection{
+    display: none;
+}
+
 .menu-bar a{
     padding: 0 10px;
     color: black;
@@ -97,6 +101,10 @@ header{
     margin-left: 100px;
 }
 
+.hero img::selection{
+    display: none;
+}
+
 .Dev-presentation {
     display: flex;
     flex-direction: column;
@@ -107,6 +115,11 @@ header{
     font-family: 'Exo 2';
     font-weight: 400;
     font-size: 40px;
+    cursor: default;
+}
+
+.Dev-presentation h1::selection{
+    display: none;
 }
 
 .Dev-presentation p{
@@ -119,6 +132,11 @@ header{
     font-family: 'Exo 2';
     font-weight: 800;
     font-size: 70px;
+    cursor: default;
+}
+
+.Dev-presentation h2::selection{
+    display: none;
 }
 
 .contact-button{
@@ -227,6 +245,10 @@ header{
 .xp-years-title h1{
     font-family: 'Exo 2';
     font-size: 90px;
+}
+
+.xp-years-title h1::selection{
+    display: none;
 }
 
 .xp-years-title{
