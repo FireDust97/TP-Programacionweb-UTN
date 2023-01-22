@@ -181,7 +181,7 @@ header{
     margin: 0 auto;
 }
 
-.about-title{
+.section-title{
     height: 130px;
     display: flex;
     justify-content: flex-end;
@@ -189,7 +189,7 @@ header{
     align-items: center;
 }
 
-.about-title span{
+.section-title span{
     background-color: #6AD1FC;
     padding: 4px 9px;
     font-family: 'Raleway';
@@ -198,7 +198,7 @@ header{
     cursor: default;
 }
 
-.about-title h1{
+.section-title h1{
     font-family: 'Exo 2';
     cursor: default;
 }
@@ -317,7 +317,48 @@ header{
     height: 680px;
 }
 
+.projecthelp-container{
+    width: 1000px;
+    height: 500px;
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projecthelpdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+    height: 205px;
+}
+
+.projecthelpdiv i{
+    font-size: 40px;
+    -webkit-text-stroke: 2px;
+    color: #6AD1FC;
+    margin-bottom: 15px;
+}
+
+.projecthelpdiv h1{
+    font-family: 'Exo 2';
+    font-size: 22px;
+}
+
+.projecthelpdiv p{
+    font-family: 'Exo 2';
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #6C757D;
+    font-weight: 500;
+}
+
 .whatcanido-section3{
     background-color: white;
-    height: 500px;
+    height: 1100px;
 }
