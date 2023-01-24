@@ -362,3 +362,131 @@ header{
     background-color: white;
     height: 1100px;
 }
+
+.resume-title{
+    font-family: 'Exo 2';
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-content{
+    border-left: 2px solid #6AD1FC;
+    line-height: 1.7;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.resume-content h1{
+    font-family: 'Exo 2';
+    font-size: 22px;
+}
+
+.resume-content span{
+    font-family: 'Exo 2';
+}
+
+.resume-content p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.resume-content hr{
+    margin: 10px 0;
+}
+
+.resume-container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 1020px;
+
+}
+
+.summary-resume-container{
+    width: 510px;
+    margin-right: 20px;
+}
+
+.skill-container{
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.skill-bar[value] {
+    width: 470px;
+    height: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 100px;
+}
+
+.skill-bar[value]::-webkit-progress-bar {
+    background-color: #E9ECEF;
+    border-radius: 100px;
+}
+
+.skill-bar[value]::-webkit-progress-value {
+    background-color: #6AD1FC;
+    border-radius: 100px;
+}
+
+.skill-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.skill-box{
+    margin-bottom: 20px;
+}
+
+.skill-info p::selection{
+    display: none;
+}
+
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 15px;
+    cursor: default;
+}
+
+.CVdownload form{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.CVdownload input{
+    width: 160px;
+    padding: 12px 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.CVdownload input:hover{
+    width: 160px;
+    padding: 12px 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+}
+
+.whatcanido-section4{
+    background-color: whitesmoke;
+    height: 680px;
+}
