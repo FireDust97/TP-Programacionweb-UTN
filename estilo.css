@@ -472,6 +472,8 @@ header{
     color: black;
     background-color: white;
     cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
 }
 
 .CVdownload input:hover{
@@ -482,11 +484,116 @@ header{
     color: white;
     background-color: black;
     cursor: pointer;
-    transition-property: color, background-color;
-    transition-duration: 0.5s;
 }
 
 .whatcanido-section4{
     background-color: whitesmoke;
     height: 680px;
+}
+
+footer{
+    background-color: #6AD1FC;
+    height: 530px;
+}
+
+.footer-container{
+    display: flex;
+    width: 916px;
+    margin: 0 auto;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.contact-1{
+    width: 400px;
+}
+
+.contact1-title{
+    margin-bottom: 40px;
+    font-family: 'Exo 2';
+}
+
+.contact1-info{
+    margin-bottom: 14px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.contact1-personalinfo{
+    line-height: 1.7;
+    margin-bottom: 38px;
+}
+
+.contact1-personalinfo h1{
+    font-family: 'Exo 2';
+    font-size: 18px;
+}
+
+.contact1-personalinfo p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact1-sociallist a{
+    padding-right: 10px;
+    color: #4D555A;
+    font-size: 19px;
+}
+
+.contact-2{
+    width: 458px;
+}
+
+.contact2-title{
+    margin-bottom: 40px;
+    font-family: 'Exo 2';
+}
+
+.contact2-form p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.contact2-form textarea{
+    border: 0;
+    background-color: #6AD1FC;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    resize: none;
+}
+
+.contact2-form input{
+    border: 0;
+    background-color: #6AD1FC;
+    border-bottom: 1px solid grey;
+    height: 24px;
+    width: 100%;
+}
+
+.form-send input{
+    margin-top: 12px;
+    width: 123px;
+    padding: 10px 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition-property: color, border;
+    transition-duration: 0.5s;
+}
+
+.form-send input:hover{
+    width: 123px;
+    padding: 10px 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    border: 2px solid white;
+    color: #2AA4EF;
+    cursor: pointer;
 }
