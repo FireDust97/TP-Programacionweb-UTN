@@ -13,7 +13,7 @@ a{
 
 header{
     background-color: #FFFFFF;
-    padding: 12px 0;
+    padding: 13px 0;
     /* eliminar las siguientes lineas para regresar el header a posicion absoluta */
     position: fixed;
     width: 100%;
@@ -80,7 +80,7 @@ header{
 }
 
 .hero-container {
-    padding: 60px 0; 
+    padding: 39px 0; 
     /* eliminar padding para regresar el header a posicion absoluta */
     background-color: #6AD1FC;
 }
@@ -96,11 +96,16 @@ header{
     padding: 110px 0;
 }
 
+.pfp-container{
+    width: 300px;
+    margin-left: 100px
+}
+
 .hero img{
-    width: 23%;
+    width: 300px;
     border: 13px solid white;
     border-radius: 100%;
-    margin-left: 100px;
+    ;
 }
 
 .hero img::selection{
@@ -626,5 +631,46 @@ footer{
 }
 
 @media (min-width: 1570px){
-    
+    .hero img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        width: 770px;
+        padding: 15px 0;
+    }
+
+    .menu-bar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-bar a{
+        margin: 4px 10px;
+    }
+
+    .social-bar{
+        display: flex;
+    }
+
+    .hero-container{
+        width: 1098px;
+    }
+
+    .hero{
+        width: 700px;
+        background-color: #c300ff;
+    }
+
+    .hero img{
+        width: 30px;
+    }
+
+    .Aboutme-section1{
+        width: 770px;
+    }
 }
