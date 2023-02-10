@@ -152,17 +152,28 @@ header{
     padding-top: 30px;
 }
 
-.contact-button input{
-    width: 160px;
+.contact-button button{
+    display: flex;
+    justify-content: center;
+    width: 170px;
     padding: 12px 18px;
-    font-family: 'Raleway';
-    font-weight: 600;
-    color: white;
     background-color: black;
     cursor: pointer;
     box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.1);
     transition-property: border;
     transition-duration: 0.5s;
+}
+
+.portfolio-button{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: white;
+}
+
+.bi-arrow-right-circle{
+    margin-left: 2px;
+    color: white;
 }
 
 .contact-button input:hover{
@@ -637,9 +648,19 @@ footer{
 }
 
 @media (max-width: 768px){
+    body{
+        width: 100%;
+        max-width: 768px;
+    }
+
     header{
-        width: 770px;
-        padding: 15px 0;
+        width: 768px;
+        padding: 8px 0;
+    }
+
+    .nav-bar{
+       justify-content: space-between;
+       padding: 0 70px;
     }
 
     .menu-bar{
@@ -650,7 +671,7 @@ footer{
     }
 
     .menu-bar a{
-        margin: 4px 10px;
+        margin: 4px 8px;
     }
 
     .social-bar{
@@ -658,19 +679,40 @@ footer{
     }
 
     .hero-container{
-        width: 1098px;
+        width: 768px;
     }
 
     .hero{
-        width: 700px;
-        background-color: #c300ff;
+        padding-top: 93px;
+        padding-bottom: 93px;
+        padding-left: 30px;
+        margin-top: 30px;
+        width: 768px;
     }
 
     .hero img{
-        width: 30px;
+        width: 200px;
+    }
+
+    .Dev-presentation h1{
+        font-size: 20px;
+    }
+
+    .Dev-presentation h2{
+        font-size: 40px;
+    }
+
+    .contact-button input{
+        font-size: 12px;
+        padding: 8px 19px;
+        width: 130px;
+    }
+
+    .specified-contact-bt{
+        font-size: 13px;
     }
 
     .Aboutme-section1{
-        width: 770px;
+        width: 703px;
     }
 }
