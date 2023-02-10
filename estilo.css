@@ -140,6 +140,25 @@ header{
     font-weight: 800;
     font-size: 70px;
     cursor: default;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(21, 85, 146); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 2px; /* Adjust as needed */
+    animation:
+    typing 3s steps(20, end),
+    blink-caret .75s step-end infinite;
+    animation-delay: 0.33s;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(21, 85, 146); }
 }
 
 .Dev-presentation h2::selection{
